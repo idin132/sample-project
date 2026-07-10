@@ -55,30 +55,68 @@
     </style>
   </head>
   <body class="bg-brand-darkbg text-slate-100 flex flex-col min-h-screen">
-    
     <!-- Top Banner Promosi[cite: 1] -->
-    <div class="bg-brand-accent text-white text-xs py-2 px-4 text-center font-semibold tracking-wider uppercase">
+    <div
+      class="bg-brand-accent text-white text-xs py-2 px-4 text-center font-semibold tracking-wider uppercase"
+    >
       🔥 Tempat Nongkrong Digital Gamer Indonesia - Update Setiap Hari!
     </div>
 
     <!-- Header / Navbar Utama[cite: 1] -->
-    <header class="sticky top-0 z-50 bg-brand-darkbg/95 backdrop-blur border-b border-slate-800 transition-all duration-300" id="main-navbar">
+    <header
+      class="sticky top-0 z-50 bg-brand-darkbg/95 backdrop-blur border-b border-slate-800 transition-all duration-300"
+      id="main-navbar"
+    >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-20">
           <div class="flex-shrink-0 flex items-center">
-            <a href="index.html" class="font-gaming text-2xl md:text-3xl font-black tracking-wider text-white flex items-center gap-2">
+            <a
+              href="index.html"
+              class="font-gaming text-2xl md:text-3xl font-black tracking-wider text-white flex items-center gap-2"
+            >
               <span class="text-brand-accent">ANAK</span>TUA
             </a>
           </div>
 
           <!-- Menu Navigasi[cite: 1] -->
-          <nav class="hidden lg:flex space-x-1 xl:space-x-4 font-medium text-sm">
-            <a href="index.html" class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Home</a>
-            <a href="news.html" class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">News</a>
-            <a href="reviews.html" class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Reviews</a>
-            <a href="features.html" class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Features</a>
-            <a href="hardware.html" class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Hardware</a>
-            <a href="pop-culture.html" class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Pop-Culture</a>
+          <nav
+            class="hidden lg:flex space-x-1 xl:space-x-4 font-medium text-sm"
+          >
+            <a
+              href="index.html"
+              class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+              >Home</a
+            >
+            <a
+              href="latest_post.html"
+              class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+              >Lates Post</a
+            >
+            <a
+              href="news.html"
+              class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+              >News</a
+            >
+            <a
+              href="reviews.html"
+              class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+              >Reviews</a
+            >
+            <a
+              href="features.html"
+              class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+              >Features</a
+            >
+            <a
+              href="hardware.html"
+              class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+              >Hardware</a
+            >
+            <a
+              href="pop-culture.html"
+              class="px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+              >Pop-Culture</a
+            >
           </nav>
 
           <div class="hidden md:flex items-center space-x-4">
@@ -88,15 +126,23 @@
                 placeholder="Cari artikel terbaru..."
                 class="bg-brand-cardbg text-slate-200 pl-4 pr-10 py-2 rounded-full border border-slate-700 text-sm focus:outline-none focus:border-brand-accent w-48 transition-all focus:w-64"
               />
-              <i class="fa-solid fa-magnifying-glass absolute right-3 top-3 text-slate-400 text-xs"></i>
+              <i
+                class="fa-solid fa-magnifying-glass absolute right-3 top-3 text-slate-400 text-xs"
+              ></i>
             </div>
-            <a href="#" class="bg-brand-accent hover:bg-brand-accentHover text-white font-bold text-sm px-5 py-2.5 rounded-full transition-colors tracking-wide shadow-lg shadow-brand-accent/20">
+            <a
+              href="#"
+              class="bg-brand-accent hover:bg-brand-accentHover text-white font-bold text-sm px-5 py-2.5 rounded-full transition-colors tracking-wide shadow-lg shadow-brand-accent/20"
+            >
               Join Discord
             </a>
           </div>
 
           <div class="lg:hidden flex items-center">
-            <button id="mobile-menu-btn" class="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-brand-cardbg focus:outline-none">
+            <button
+              id="mobile-menu-btn"
+              class="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-brand-cardbg focus:outline-none"
+            >
               <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
             </button>
           </div>
@@ -104,21 +150,52 @@
       </div>
 
       <!-- Mobile Menu Dropdown[cite: 1] -->
-      <div class="hidden lg:hidden bg-brand-cardbg border-b border-slate-800" id="mobile-menu">
+      <div
+        class="hidden lg:hidden bg-brand-cardbg border-b border-slate-800"
+        id="mobile-menu"
+      >
         <div class="px-4 pt-2 pb-4 space-y-1 sm:px-3 text-base font-medium">
-          <a href="index.html" class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Home</a>
-          <a href="news.html" class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">News</a>
-          <a href="reviews.html" class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Reviews</a>
-          <a href="features.html" class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Features</a>
-          <a href="hardware.html" class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Hardware</a>
-          <a href="pop-culture.html" class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md">Pop-Culture</a>
+          <a
+            href="index.html"
+            class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+            >Home</a
+          >
+          <a
+            href="news.html"
+            class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+            >News</a
+          >
+          <a
+            href="reviews.html"
+            class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+            >Reviews</a
+          >
+          <a
+            href="features.html"
+            class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+            >Features</a
+          >
+          <a
+            href="hardware.html"
+            class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+            >Hardware</a
+          >
+          <a
+            href="pop-culture.html"
+            class="block px-3 py-2 text-slate-300 hover:text-brand-accent rounded-md"
+            >Pop-Culture</a
+          >
           <div class="pt-4 border-t border-slate-700 mt-4 flex flex-col gap-3">
             <input
               type="text"
               placeholder="Cari artikel terbaru..."
               class="bg-brand-darkbg text-slate-200 px-4 py-2 rounded-md border border-slate-700 text-sm focus:outline-none focus:border-brand-accent w-full"
             />
-            <a href="#" class="bg-brand-accent text-center text-white font-bold px-4 py-2.5 rounded-md text-sm">Join Discord</a>
+            <a
+              href="#"
+              class="bg-brand-accent text-center text-white font-bold px-4 py-2.5 rounded-md text-sm"
+              >Join Discord</a
+            >
           </div>
         </div>
       </div>
@@ -126,19 +203,24 @@
 
     <!-- Halaman Konten Utama (Latest Post Grid Layout)[cite: 1] -->
     <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      
       <!-- Judul Halaman -->
-      <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-8">
-        <h2 class="text-xl md:text-2xl font-gaming font-extrabold text-white flex items-center gap-2">
-          <span class="w-2.5 h-6 bg-brand-accent inline-block"></span>SEMUA UNGGAHAN TERBARU (LATEST POSTS)
+      <div
+        class="flex items-center justify-between border-b border-slate-800 pb-4 mb-8"
+      >
+        <h2
+          class="text-xl md:text-2xl font-gaming font-extrabold text-white flex items-center gap-2"
+        >
+          <span class="w-2.5 h-6 bg-brand-accent inline-block"></span>SEMUA
+          UNGGAHAN TERBARU (LATEST POSTS)
         </h2>
       </div>
 
       <!-- Grid Umpan Postingan Terbaru -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        
         <!-- Post 1: News Category[cite: 1] -->
-        <article class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between">
+        <article
+          class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between"
+        >
           <div>
             <div class="relative overflow-hidden aspect-video">
               <img
@@ -146,27 +228,38 @@
                 alt="Post 1"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              <span class="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">Gacha Game</span>
+              <span
+                class="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider"
+                >Gacha Game</span
+              >
             </div>
             <div class="p-5">
               <div class="text-[11px] text-slate-400 mb-2">
                 <i class="fa-regular fa-calendar mr-1"></i> 10 Juli 2026
               </div>
-              <h3 class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2 leading-snug">
-                Gacha Berdarah! Genshin Impact Rilis Banner Karakter Bintang 5 Terbaru Nasional
+              <h3
+                class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2 leading-snug"
+              >
+                Gacha Berdarah! Genshin Impact Rilis Banner Karakter Bintang 5
+                Terbaru Nasional
               </h3>
               <p class="text-slate-400 text-xs mt-2 line-clamp-2">
-                Detail lengkap mengenai update banner terbaru yang bikin tabungan primogems para gamer terkuras habis bulan ini.
+                Detail lengkap mengenai update banner terbaru yang bikin
+                tabungan primogems para gamer terkuras habis bulan ini.
               </p>
             </div>
           </div>
-          <div class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2">
+          <div
+            class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2"
+          >
             <span><i class="fa-regular fa-user mr-1"></i> Admin</span>
           </div>
         </article>
 
         <!-- Post 2: Reviews Category[cite: 1] -->
-        <article class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between">
+        <article
+          class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between"
+        >
           <div>
             <div class="relative overflow-hidden aspect-video">
               <img
@@ -174,27 +267,38 @@
                 alt="Post 2"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              <span class="absolute top-3 left-3 bg-yellow-600 text-white text-[10px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">Review Game</span>
+              <span
+                class="absolute top-3 left-3 bg-yellow-600 text-white text-[10px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider"
+                >Review Game</span
+              >
             </div>
             <div class="p-5">
               <div class="text-[11px] text-slate-400 mb-2">
                 <i class="fa-regular fa-calendar mr-1"></i> 10 Juli 2026
               </div>
-              <h3 class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2 leading-snug">
-                Review Elden Ring: Shadow of the Erdtree – Mahakarya DLC Terbaik Dekade Ini?
+              <h3
+                class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2 leading-snug"
+              >
+                Review Elden Ring: Shadow of the Erdtree – Mahakarya DLC Terbaik
+                Dekade Ini?
               </h3>
               <p class="text-slate-400 text-xs mt-2 line-clamp-2">
-                Kami mengulas mendalam ekspansi terbaru FromSoftware. Apakah tingkat kesulitannya masih masuk akal untuk gamer kasual?
+                Kami mengulas mendalam ekspansi terbaru FromSoftware. Apakah
+                tingkat kesulitannya masih masuk akal untuk gamer kasual?
               </p>
             </div>
           </div>
-          <div class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2">
+          <div
+            class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2"
+          >
             <span><i class="fa-regular fa-user mr-1"></i> Admin</span>
           </div>
         </article>
 
         <!-- Post 3: Hardware Category[cite: 1] -->
-        <article class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between">
+        <article
+          class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between"
+        >
           <div>
             <div class="relative overflow-hidden aspect-video">
               <img
@@ -202,27 +306,38 @@
                 alt="Post 3"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              <span class="absolute top-3 left-3 bg-cyan-600 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase">Hardware</span>
+              <span
+                class="absolute top-3 left-3 bg-cyan-600 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase"
+                >Hardware</span
+              >
             </div>
             <div class="p-5">
               <div class="text-[11px] text-slate-400 mb-2">
                 <i class="fa-regular fa-calendar mr-1"></i> 10 Juli 2026
               </div>
-              <h3 class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2">
-                Nyobain Laptop Gaming RTX 40-Series Termurah Tahun Ini: Layak Dibeli?
+              <h3
+                class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2"
+              >
+                Nyobain Laptop Gaming RTX 40-Series Termurah Tahun Ini: Layak
+                Dibeli?
               </h3>
               <p class="text-slate-400 text-xs mt-2 line-clamp-2">
-                Kami menguji performa gaming, suhu thermal, hingga ketahanan baterai dari laptop gaming budget ramah kantong mahasiswa.
+                Kami menguji performa gaming, suhu thermal, hingga ketahanan
+                baterai dari laptop gaming budget ramah kantong mahasiswa.
               </p>
             </div>
           </div>
-          <div class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2">
+          <div
+            class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2"
+          >
             <span><i class="fa-regular fa-user mr-1"></i> Admin</span>
           </div>
         </article>
 
         <!-- Post 4: PC Game[cite: 1] -->
-        <article class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between">
+        <article
+          class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between"
+        >
           <div>
             <div class="relative overflow-hidden aspect-video">
               <img
@@ -230,27 +345,37 @@
                 alt="Post 4"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              <span class="absolute top-3 left-3 bg-blue-600 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase">PC Game</span>
+              <span
+                class="absolute top-3 left-3 bg-blue-600 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase"
+                >PC Game</span
+              >
             </div>
             <div class="p-5">
               <div class="text-[11px] text-slate-400 mb-2">
                 <i class="fa-regular fa-calendar mr-1"></i> 9 Juli 2026
               </div>
-              <h3 class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2">
+              <h3
+                class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2"
+              >
                 Spesifikasi PC Black Myth: Wukong Dirilis, Butuh RAM Berapa?
               </h3>
               <p class="text-slate-400 text-xs mt-2 line-clamp-2">
-                Game action RPG bertema kera sakti ini menuntut hardware yang cukup tangguh. Berikut spek minimum dan rekomendasi resminya.
+                Game action RPG bertema kera sakti ini menuntut hardware yang
+                cukup tangguh. Berikut spek minimum dan rekomendasi resminya.
               </p>
             </div>
           </div>
-          <div class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2">
+          <div
+            class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2"
+          >
             <span><i class="fa-regular fa-user mr-1"></i> Admin</span>
           </div>
         </article>
 
         <!-- Post 5: Pop Culture[cite: 1] -->
-        <article class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between">
+        <article
+          class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between"
+        >
           <div>
             <div class="relative overflow-hidden aspect-video">
               <img
@@ -258,27 +383,38 @@
                 alt="Post 5"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              <span class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider">Pop-Culture</span>
+              <span
+                class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] font-extrabold px-2 py-0.5 rounded uppercase tracking-wider"
+                >Pop-Culture</span
+              >
             </div>
             <div class="p-5">
               <div class="text-[11px] text-slate-400 mb-2">
                 <i class="fa-regular fa-calendar mr-1"></i> 6 Jam Lalu
               </div>
-              <h3 class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2 leading-snug">
-                Adaptasi Anime dari Game Hack-and-Slash Terkenal Resmi Diumumkan Studio MAPPA
+              <h3
+                class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2 leading-snug"
+              >
+                Adaptasi Anime dari Game Hack-and-Slash Terkenal Resmi Diumumkan
+                Studio MAPPA
               </h3>
               <p class="text-slate-400 text-xs mt-2 line-clamp-2">
-                Studio dibalik proyek raksasa akhirnya resmi mengonfirmasi pengerjaan serial adaptasi game yang paling ditunggu tahun ini.
+                Studio dibalik proyek raksasa akhirnya resmi mengonfirmasi
+                pengerjaan serial adaptasi game yang paling ditunggu tahun ini.
               </p>
             </div>
           </div>
-          <div class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2">
+          <div
+            class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2"
+          >
             <span><i class="fa-regular fa-user mr-1"></i> Admin</span>
           </div>
         </article>
 
         <!-- Post 6: PlayStation[cite: 1] -->
-        <article class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between">
+        <article
+          class="bg-brand-cardbg border border-slate-800/60 rounded-xl overflow-hidden hover:border-slate-700 transition-all duration-300 group flex flex-col justify-between"
+        >
           <div>
             <div class="relative overflow-hidden aspect-video">
               <img
@@ -286,35 +422,58 @@
                 alt="Post 6"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-              <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase">PlayStation</span>
+              <span
+                class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase"
+                >PlayStation</span
+              >
             </div>
             <div class="p-5">
               <div class="text-[11px] text-slate-400 mb-2">
                 <i class="fa-regular fa-calendar mr-1"></i> 9 Juli 2026
               </div>
-              <h3 class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2">
-                Sony Kabarkan State of Play Selanjutnya Siap Digelar Bulan Depan!
+              <h3
+                class="text-base font-bold text-slate-100 group-hover:text-brand-accent transition-colors line-clamp-2"
+              >
+                Sony Kabarkan State of Play Selanjutnya Siap Digelar Bulan
+                Depan!
               </h3>
               <p class="text-slate-400 text-xs mt-2 line-clamp-2">
-                Bocoran kuat beredar bahwa judul game eksklusif generasi terbaru akan dipamerkan dalam ajang showcase bergengsi ini.
+                Bocoran kuat beredar bahwa judul game eksklusif generasi terbaru
+                akan dipamerkan dalam ajang showcase bergengsi ini.
               </p>
             </div>
           </div>
-          <div class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2">
+          <div
+            class="px-5 pb-5 pt-3 border-t border-slate-800/40 text-[11px] text-slate-400 flex items-center gap-2"
+          >
             <span><i class="fa-regular fa-user mr-1"></i> Admin</span>
           </div>
         </article>
-
       </div>
 
       <!-- Pagination Umpan Halaman -->
       <div class="flex justify-center items-center gap-2 pt-12">
-        <a href="#" class="bg-brand-cardbg border border-slate-800 text-slate-300 px-4 py-2 rounded-lg text-xs font-semibold hover:border-brand-accent transition-colors"><i class="fa-solid fa-angle-left mr-1"></i> Prev</a>
-        <a href="#" class="bg-brand-accent text-white px-3.5 py-2 rounded-lg text-xs font-bold">1</a>
-        <a href="#" class="bg-brand-cardbg border border-slate-800 text-slate-300 px-3.5 py-2 rounded-lg text-xs font-semibold hover:border-slate-700 transition-colors">2</a>
-        <a href="#" class="bg-brand-cardbg border border-slate-800 text-slate-300 px-4 py-2 rounded-lg text-xs font-semibold hover:border-brand-accent transition-colors">Next <i class="fa-solid fa-angle-right ml-1"></i></a>
+        <a
+          href="#"
+          class="bg-brand-cardbg border border-slate-800 text-slate-300 px-4 py-2 rounded-lg text-xs font-semibold hover:border-brand-accent transition-colors"
+          ><i class="fa-solid fa-angle-left mr-1"></i> Prev</a
+        >
+        <a
+          href="#"
+          class="bg-brand-accent text-white px-3.5 py-2 rounded-lg text-xs font-bold"
+          >1</a
+        >
+        <a
+          href="#"
+          class="bg-brand-cardbg border border-slate-800 text-slate-300 px-3.5 py-2 rounded-lg text-xs font-semibold hover:border-slate-700 transition-colors"
+          >2</a
+        >
+        <a
+          href="#"
+          class="bg-brand-cardbg border border-slate-800 text-slate-300 px-4 py-2 rounded-lg text-xs font-semibold hover:border-brand-accent transition-colors"
+          >Next <i class="fa-solid fa-angle-right ml-1"></i
+        ></a>
       </div>
-
     </main>
 
     <!-- Footer Utama[cite: 1] -->
@@ -322,36 +481,75 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div class="md:col-span-2 space-y-4">
-            <a href="#" class="font-gaming text-2xl font-black tracking-wider text-white">
+            <a
+              href="#"
+              class="font-gaming text-2xl font-black tracking-wider text-white"
+            >
               <span class="text-brand-accent">ANAK</span>TUA
             </a>
             <p class="text-slate-400 text-sm leading-relaxed max-w-sm">
-              Situs portal berita, media review jujur, dan wadah berkumpulnya komunitas gamer paling santai di Indonesia. Dapatkan update game & pop-culture harianmu di sini!
+              Situs portal berita, media review jujur, dan wadah berkumpulnya
+              komunitas gamer paling santai di Indonesia. Dapatkan update game &
+              pop-culture harianmu di sini!
             </p>
           </div>
 
           <div>
-            <h4 class="text-sm font-gaming font-bold text-white uppercase tracking-wider mb-4">Kategori</h4>
+            <h4
+              class="text-sm font-gaming font-bold text-white uppercase tracking-wider mb-4"
+            >
+              Kategori
+            </h4>
             <ul class="space-y-2 text-sm text-slate-400">
-              <li><a href="#" class="hover:text-brand-accent transition-colors">Berita Utama</a></li>
-              <li><a href="#" class="hover:text-brand-accent transition-colors">Ulasan Komplit</a></li>
-              <li><a href="#" class="hover:text-brand-accent transition-colors">Spesifikasi Hardware</a></li>
-              <li><a href="#" class="hover:text-brand-accent transition-colors">Kultur Pop & Anime</a></li>
+              <li>
+                <a href="#" class="hover:text-brand-accent transition-colors"
+                  >Berita Utama</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-brand-accent transition-colors"
+                  >Ulasan Komplit</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-brand-accent transition-colors"
+                  >Spesifikasi Hardware</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-brand-accent transition-colors"
+                  >Kultur Pop & Anime</a
+                >
+              </li>
             </ul>
           </div>
 
           <div>
-            <h4 class="text-sm font-gaming font-bold text-white uppercase tracking-wider mb-4">Media Sosial</h4>
+            <h4
+              class="text-sm font-gaming font-bold text-white uppercase tracking-wider mb-4"
+            >
+              Media Sosial
+            </h4>
             <div class="flex space-x-4 text-xl text-slate-400">
-              <a href="#" class="hover:text-brand-accent transition-colors"><i class="fa-brands fa-youtube"></i></a>
-              <a href="#" class="hover:text-brand-accent transition-colors"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" class="hover:text-brand-accent transition-colors"><i class="fa-brands fa-tiktok"></i></a>
-              <a href="#" class="hover:text-brand-accent transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="hover:text-brand-accent transition-colors"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="#" class="hover:text-brand-accent transition-colors"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="hover:text-brand-accent transition-colors"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+              <a href="#" class="hover:text-brand-accent transition-colors"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
             </div>
           </div>
         </div>
 
-        <div class="border-t border-slate-800 mt-12 pt-6 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div
+          class="border-t border-slate-800 mt-12 pt-6 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4"
+        >
           <p>&copy; 2026 Anak Tua. All rights reserved.</p>
           <div class="flex gap-4">
             <a href="#" class="hover:underline">Privacy Policy</a>
